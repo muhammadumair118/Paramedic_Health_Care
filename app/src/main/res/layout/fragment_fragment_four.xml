@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jutt1.midterm.FragmentFour">
+
+    <TextView
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:id="@+id/doctorSpecialization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/complainBtn"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Register Your Complain"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+</FrameLayout>
